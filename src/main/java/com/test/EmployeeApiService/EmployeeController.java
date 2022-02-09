@@ -53,4 +53,12 @@ public class EmployeeController {
 		}
 		return "Successfully deleted from the list";
 	}
+	@RequestMapping(value = "/update-company/{name}", method = RequestMethod.PUT)
+	public String updateCompany(@PathVariable String name, @RequestBody String newName) {
+		if(list.contains(name)) {
+			list.remove(name);
+			list.add(newName);
+		}
+		return "Successfully updated from the list";
+	}
 }

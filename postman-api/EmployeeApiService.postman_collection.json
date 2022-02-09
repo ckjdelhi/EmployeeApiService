@@ -1,0 +1,133 @@
+{
+	"info": {
+		"_postman_id": "acc7cd91-84de-4e01-8476-92a1746f79e4",
+		"name": "EmployeeApiService",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "/getcompanyname",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/getcompanyname",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"getcompanyname"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/get-all-names",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/get-all-names",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"get-all-names"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/get-employee",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/get-employee",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"get-employee"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/add-company",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "Apple"
+				},
+				"url": {
+					"raw": "http://localhost:8080/add-company",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"add-company"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/delete-company",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/delete-company/NIIT",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"delete-company",
+						"NIIT"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/update-company",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "NIIT Technology"
+				},
+				"url": {
+					"raw": "http://localhost:8080/update-company/NIIT",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"update-company",
+						"NIIT"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
